@@ -3,7 +3,7 @@ package rodoviaria;
 
 
 public class Cliente {
-        private String nome;
+    private String nome;
     private String telefone;
     private int idade;
     
