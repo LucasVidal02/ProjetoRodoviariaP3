@@ -1,17 +1,23 @@
-
-package rodoviaria;
+package Rodoviaria;
 
 public class Assento {
-        private Cliente cliente;
 
-    public Cliente getPessoa() {
-        return cliente;
+    private String lugar;
+
+    public Assento(String lugar) {
+        this.lugar = lugar;
     }
 
-    public void setPessoa(Cliente cliente) {
-        this.cliente = cliente;
+    public String getLugar() {
+        return lugar;
     }
+
+    public void setLugar(String lugar) {
+        this.lugar = lugar;
+    }
+
   
+
 }
 
     

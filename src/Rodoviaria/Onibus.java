@@ -1,18 +1,34 @@
 
-package rodoviaria;
+package Rodoviaria;
 
 
 public class Onibus {
-    private Assento lugares[] = new Assento[30];
-    private String rotas;
-
-    public String getRotas() {
-        return rotas;
-    }
-
-    public void setRotas(String rotas) {
-        this.rotas = rotas;
-    }
-
+      private String Onibusrotas;
     
+    private Onibus onibus[] = new Onibus[2000];
+    
+   
+
+   
+    
+    
+    public Onibus(String Onibusrotas){
+        this.Onibusrotas = Onibusrotas;
+    }    
+
+    public Onibus[] getOnibus() {
+        return onibus;
+    }
+
+    public void setOnibus(Onibus[] onibus) {
+        this.onibus = onibus;
+    }
+
+    public String getOnibusrotas() {
+        return Onibusrotas;
+    }
+
+    public void setOnibusrotas(String Onibusrotas) {
+        this.Onibusrotas = Onibusrotas;
+    }
 }
